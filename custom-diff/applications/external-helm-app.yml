@@ -24,7 +24,7 @@ spec:
   
   ignoreDifferences:
   - group: core
-    kind: Secrets
+    kind: Secret
     jsonPointers:
     - /data/my-password
   - group: apps
