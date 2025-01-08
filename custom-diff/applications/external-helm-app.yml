@@ -23,7 +23,7 @@ spec:
       - CreateNamespace=true  
   
   ignoreDifferences:
-  - group: apps
+  - group: core
     kind: Secrets
     jsonPointers:
     - /data/my-password
